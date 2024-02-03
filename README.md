@@ -1,4 +1,4 @@
-# react-honeycomb
+# react-honeycombv2
 
 React Honeycomb is a library for displaying lists as hexagonal honeycombs in React applications.
 
