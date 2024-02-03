@@ -1,4 +1,4 @@
-# react-honeycombv2
+# react-honeycomb-v2
 
 React Honeycomb is a library for displaying lists as hexagonal honeycombs in React applications.
 
@@ -7,13 +7,13 @@ React Honeycomb is a library for displaying lists as hexagonal honeycombs in Rea
 To install the library using npm run the following command in your terminal:
 
 ```bash
-npm install react-honeycomb
+npm install react-honeycomb-v2
 ```
 
 Alternatively, if you're using yarn, run:
 
 ```bash
-yarn add react-honeycomb
+yarn add react-honeycomb-v2
 ```
 
 ## Usage
@@ -26,6 +26,7 @@ Currently the library provides two kinds of Honeycomb components: `Honeycomb` (a
 
 ```jsx
 import { Honeycomb, Hexagon } from 'react-honeycomb';
+const MY_ITEMS = [ { name: 'a', value: '1', name: 'b', value: '2' } ]
 
 <Honeycomb
   columns={5}
@@ -33,7 +34,7 @@ import { Honeycomb, Hexagon } from 'react-honeycomb';
   items={MY_ITEMS}
   renderItem={(item) => (
     <Hexagon className='awesome-class-name'>
-        {renderItem(item)}
+        {renderItem(item.value)}
     </Hexagon>
   )}
 />;
