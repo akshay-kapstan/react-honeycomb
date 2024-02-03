@@ -1,4 +1,4 @@
-export interface CommonHoneycombProps<T = string> {
+export interface CommonHoneycombProps<T = any> {
   size: number;
   items: Array<T>;
   renderItem(item: T, index: number): React.ReactElement;
