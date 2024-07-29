@@ -1,5 +1,4 @@
 import * as React from "react";
-import ResizeObserver from "resize-observer-polyfill";
 
 import Honeycomb from "./Honeycomb";
 import { getGridColumnsCount } from "./helpers";

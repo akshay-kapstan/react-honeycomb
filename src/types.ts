@@ -11,15 +11,18 @@ export interface StaticHoneycombProps extends CommonHoneycombProps {
 }
 
 export interface ResponsiveHoneycombProps extends CommonHoneycombProps {
+  children: React.ReactElement;
   defaultWidth: number;
 }
 
 export interface HoneycombCellProps {
+  children: React.ReactElement;
   row: number;
   column: number;
 }
 
 export interface HexagonProps {
+  children: React.ReactElement;
   className?: string;
   style?: React.CSSProperties;
 }
